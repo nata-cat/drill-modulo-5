@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    <title>Star Wars &#9733;</title>
+
+    <!--Bootstrap 5.2-->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body onload="llamarEventos()">
+
+    <!--Div con textos para carga de informacion de las api-->
+    <div id="loader">
+        <div class="fade"></div>
+        <section class="star-wars">
+            <div class="crawl">
+                <div class="title">
+                    <p>Episode V</p>
+                    <h1>Una nueva esperanza</h1>
+                </div>
+                <p>En los vastos confines de esta página galáctica, un archivo de leyendas emerge para revelar los personajes más emblemáticos que han iluminado las pantallas a lo largo de la legendaria saga de Star Wars. Agrupados en categorías con precisión milimétrica, estos íconos cósmicos se alinean en una danza de fama y reconocimiento. </p>
+                <p>Del número 1 al 5, destellan aquellos cuyos nombres reverberan en los corazones de innumerables admiradores, incrustados en la esencia misma de la epopeya. Del 6 al 10, una galaxia de rostros familiares se materializa, invitando a los seguidores a sumergirse en su historia cautivadora. Por último, del 11 al 15, aquellos seres cuya luz se ha desvanecido en las sombras, pero cuyos legados persisten en la memoria colectiva, emergen para recordarnos su breve pero valioso paso por la galaxia. Prepárate para embarcarte en un viaje de descubrimiento, donde los nombres de estos personajes trascenderán las estrellas y te sumergirán en un universo sin igual.</p>
+
+            </div>
+        </section>
+    </div>
+
+    <main id="mainTarjetas" class="align-items-center my-5">
+
+
+        <div class="text-center">
+            <h1>Personajes de StarWars</h1>
+        </div>
+
+        <!--Contenedor principal 1-->
+        <div class="container-fluid row mt-5 text-center align-items-center">
+
+            <!--Contenedor numero y linea-->
+            <div id="contenedorNumero" class="col-3 d-flex justify-content-end align-items-center">
+
+                <div id="personajes1" class="align-items-start px-4">
+                    <p class="text-start pt-3 parrafoNumeros">1 / 5</p>
+                </div>
+
+                <div id="lineaFondo">
+                    <div id="circulo2"></div>
+                </div>
+            </div>
+
+            <!--Contenedor cards-->
+            <div class="container col-9">
+
+                <div id="contendorTarjetas" class="row d-flex">
+
+                    <div class="col-4">
+
+                        <div class="card fondoTarjeta">
+                            <div class="card-body row">
+                                <div class="d-flex align-items-start ">
+                                    <div> 
+                                        <img src="assets/img/Redstarbird.svg">
+                                    </div>
+                                    <h6 class="ps-2 pt-1 card-title">En esta sección...</h6>
+                                </div>
+
+                                <div class="col mt-4 text-start">
+                                    <p class="card-text">Encontrarás información sobre los personajes más populares de
+                                        las películas.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <!--Contenedor principal 2-->
+        <div class="container-fluid row text-center align-items-center contenedorPrincipal">
+
+            <!--Contenedor numero y linea-->
+            <div id="contenedorNumero" class="col-3 d-flex justify-content-end align-items-center">
+
+                <div id="personajes2" class="align-items-start px-4">
+                    <p class="text-start parrafoNumeros pt-3">6 / 10</p>
+                </div>
+
+                <div id="lineaFondo">
+                    <div id="circulo2"></div>
+                </div>
+            </div>
+
+            <!--Contenedor cards-->
+            <div class="container col-9 mt-3">
+
+                <div id="contendorTarjetas2" class="row d-flex">
+
+                    <div class="col-4">
+
+                        <div class="card fondoTarjeta">
+                            <div class="card-body row">
+                                <div class="d-flex align-items-start ">
+                                    <div>
+                                        <img src="assets/img/Republic_Emblem.png">
+                                    </div>
+                                    <h6 class="ps-2 pt-1 card-title">En esta sección...</h6>
+                                </div>
+
+                                <div class="col mt-4 text-start">
+                                    <p class="card-text">Encontrarás información sobre los personajes más populares de
+                                        las películas.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                   <!--Aca deben rellenarse las cards por js-->
+
+                    
+
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <!--Contenedor principal 3-->
+        <div class="container-fluid row text-center align-items-center contenedorPrincipal mt-1">
+
+            <!--Contenedor numero y linea-->
+            <div id="contenedorNumero" class="col-3 d-flex justify-content-end align-items-center">
+
+                <div id="personajes3" class="align-items-start px-4">
+                    <p class="text-start parrafoNumeros pt-3">11 / 16</p>
+                </div>
+
+                <div id="lineaFondo">
+                    <div id="circulo2"></div>
+                </div>
+            </div>
+            <!--Contenedor cards-->
+            <div class="container col-9 mt-3">
+
+                <div id="contendorTarjetas3" class="row d-flex">
+
+                    <div class="col-4">
+
+                        <div class="card fondoTarjeta">
+                            <div class="card-body row">
+                                <div class="d-flex justify-content-start align-items-start">
+                                    <div>
+                                        <img src="assets/img/antigua-republica.svg">
+                                    </div>
+                                    <h6 class="ps-2 pt-1 card-title">En esta sección...</h6>
+                                </div>
+
+                                <div class="col mt-4 text-start">
+                                    <p class="card-text">Encontrarás información sobre los personajes más populares de
+                                        las películas.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                   <!--Aca deben rellenarse las cards por js-->
+
+                    
+
+                    
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!--Js Bootstrao 5.2-->
+    <script src="assets/Bootstrap/js/bootstrap.bundle.js"></script>
+    <!--Js Personalizado-->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
