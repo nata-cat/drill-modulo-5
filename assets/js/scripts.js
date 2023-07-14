@@ -98,7 +98,7 @@ const crearCards = (inicio, fin, imagen, idContenedor) =>{
       contenidoPlaneta.classList.add('col-4', 'mt-4');
   
       const tituloPlaneta = document.createElement('h6');
-      tituloPlaneta.textContent = 'Altura';
+      tituloPlaneta.textContent = 'Planeta';
   
       const planetaVariable = document.createElement('p');
       planetaVariable.classList.add('card-text');
